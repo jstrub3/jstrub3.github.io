@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about me!
-
-### Resume
+Some information about my experiences in software development!
 
 ## Wargaming Chicago-Baltimore - UI Engineer (2019 - Present)
 # Skills
