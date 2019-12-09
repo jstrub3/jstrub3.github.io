@@ -14,15 +14,15 @@ My initial jumping off point as described by Daniel Schiffman in his great [Codi
 Randomly walk forward, eliminating walls until you can't walk anymore, then go back to the last walked cell and try to walk again.
 
 ## Randomized Kruskal's Algorithm
-![Kruskal](/videos/kaJiQXdKKp9qoZNA.gif)
+![Kruskal](/images/kaJiQXdKKp9qoZNA.gif)
 This was interesting in that it involves adding each cell into it's own "set", then joining these sets via a pair of adjacent cells and removing the wall between them.
 
 ## Randomized Prim's Algorithm
-![Prim](/videos/xo3jgb_haWcO8aYz.gif)
+![Prim](/images/xo3jgb_haWcO8aYz.gif)
 Visually this looked closer to the recursive backtracker, but it differed in that the "tunneling" cell is randomly chosen from a list of visited cells, rather than a single cell going as far as it can.
 
 ## Recursive Subdivision
-![Recursive Subdivision](/image/EKPTHpIXYAE7D0.jfif)
+![Recursive Subdivision](/images/EKPTHpIXYAE7D0.jfif)
 (This was a little rushed so I don't think it's implemented correctly) The idea is interesting, the maze is divided into segments, separated by a wall, then a random block of the wall is removed.  This can lead to interesting results.
 
 
