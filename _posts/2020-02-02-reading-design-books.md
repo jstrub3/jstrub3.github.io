@@ -33,3 +33,4 @@ Some of these terms might be easy to infer from the design context, but others m
 ### Shared Vision and Cooperation
 After all is said and done, everyone on the team wants to reach the same finish line.  We all want to build things we are proud of, things that bring joy and usefulness to our users.  By taking an active role in the areas of software that 1) engineers are KNOWN to be lacking in and 2) will provide the greatest tangential knowledge we as software developers can bridge the gaps and bring everything together faster and a much more cohesive vision.
 
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
