@@ -5,7 +5,7 @@ categories: [blog, code]
 tags: [code, animation, unity]
 ---
 
-(This mini-project was inspired by Coding Trains Inverse Kinematics videos, located here: https://thecodingtrain.com/CodingChallenges/064.2-inverse-kinematics.html)
+(This mini-project was inspired by [Coding Train Inverse Kinematics]({https://thecodingtrain.com/CodingChallenges/064.2-inverse-kinematics.html}) videos)
 
 Every once in a while I like to take a look at part of game development outside of UI.  Some days it's Unity shaders, some days it's Python Flask server framework.  I really like the Coding Train's videos, and I ran across a p5.js version of inverse kinematics.  The idea is 
 
