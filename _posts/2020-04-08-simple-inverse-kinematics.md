@@ -13,6 +13,7 @@ Every once in a while I like to take a look at part of game development outside 
 The simplest way of thinking about kinematics is how we can derive a final destination from a series of vector additions.  Typically supplied via "arm" length and corresponding rotation angles, it's not a terribly difficult problem.  An example of how this is used in games could be robot arm projecting their impact point, allowing quick-fingered players to evade.  Or a construction excavator determing the point of entry of their digging arm.  
 
 ![Prim](/images/robot_arm.jpg)
+
 If foward kinematics determines the endpoint, or end effector, location, then inverse kinematics determines the configuration to reach a given end effector location. This problem is harder to solve for several reasons.  Based on the system complexity and constraints, there could be multiple solutions, or none.  Determining this solution opens up a world of possibilites when it comes to animation.  Characters can reach for items, walk on uneven ground, and otherwise emulate natural behavior.  
 
 ## The Algorithm
