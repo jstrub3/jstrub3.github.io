@@ -76,6 +76,6 @@ Below is the table of my 2019 personal training.  Originally shooting for 300 ho
 |                 | 75%              | React Native: Cookoff Voting App                       | Project  | free       | 15          |
 |                 |                  |                                                        |          |            |             |
 |                 | Total % Complete |                                                        |          | Total Cost | Total Hours |
-|                 | 89.75%           |                                                        |          | $930.71    | 423.5       |
+|                 | 89.75%           |                                                        |          | $930.71    |        423.5|
 
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
