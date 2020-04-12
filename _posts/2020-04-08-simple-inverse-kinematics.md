@@ -32,9 +32,13 @@ There are a couple instances of trigonometric math used, one of which is in step
 this gives the X axis rotation of the arm in question (the * 180/Pi part transforms this from radians to degrees), and this can be fed directly into arm.transfrom.Rotate(angle, 0 , 0);
 
 For parts 2) and 3), we use simple vector math to get a 'movement vector' which is calculated as follows:
+
 movementVector = (target.position - arm.transform.position).Normalize();
+
 movementVector = movementVector * -1;       //This turns the vector so it points towards the arm
+
 movementVector = movementVector * armLength;//This magnifies it by the arm size
+
 
 Now we add this vector to our arm position, essentially lining the arm endpoint with the target position.  Doing this for the next arm in the chain will let us attach many arms to their next component position.
 
