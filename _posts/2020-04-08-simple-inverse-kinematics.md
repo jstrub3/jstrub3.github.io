@@ -41,7 +41,7 @@ Now we add this vector to our arm position, essentially lining the arm endpoint 
 ### Attachment Constraint
 The above will create an organic looking 'trail' of arms behind the target, but if we want to constrain the arm system to an attachment point, we'll need an additional set of functionality.  The above part works from the target backwards, but the attachment constraint will work from the attachment forwards.  The idea is to set the first link in the arm chain's position to the attachment point, then the next arm's position to the first link's new endpoint position.  Doing this forwards through the whole chain will constrain the entire arm system to a single point, as shown below.
 
-![Non-Attached IK](/images/IK_Unity_Attached.gif)
+![Non-Attached IK](/images/IK_Unity_attached.gif)
 
 Now this is of course as basic as it gets, there are several more complex IK solutions involving gradient descent or other more complex algorithms.  These are used for a higher degree of constraint or flexibility in solution.  
 
